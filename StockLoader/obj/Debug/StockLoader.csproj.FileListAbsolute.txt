@@ -1,0 +1,10 @@
+C:\Users\kylei\Documents\Projects\Visual Studio\StockLoader\StockLoader\bin\Debug\StockLoader.exe.config
+C:\Users\kylei\Documents\Projects\Visual Studio\StockLoader\StockLoader\bin\Debug\StockLoader.exe
+C:\Users\kylei\Documents\Projects\Visual Studio\StockLoader\StockLoader\bin\Debug\StockLoader.pdb
+C:\Users\kylei\Documents\Projects\Visual Studio\StockLoader\StockLoader\obj\Debug\StockLoader.csprojResolveAssemblyReference.cache
+C:\Users\kylei\Documents\Projects\Visual Studio\StockLoader\StockLoader\obj\Debug\StockLoader.Form1.resources
+C:\Users\kylei\Documents\Projects\Visual Studio\StockLoader\StockLoader\obj\Debug\StockLoader.Properties.Resources.resources
+C:\Users\kylei\Documents\Projects\Visual Studio\StockLoader\StockLoader\obj\Debug\StockLoader.csproj.GenerateResource.Cache
+C:\Users\kylei\Documents\Projects\Visual Studio\StockLoader\StockLoader\obj\Debug\StockLoader.exe
+C:\Users\kylei\Documents\Projects\Visual Studio\StockLoader\StockLoader\obj\Debug\StockLoader.pdb
+C:\Users\kylei\Documents\Projects\Visual Studio\StockLoader\StockLoader\obj\Debug\StockLoader.formList.resources
