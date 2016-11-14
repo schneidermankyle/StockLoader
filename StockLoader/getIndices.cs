@@ -23,6 +23,11 @@ namespace StockLoader {
                 webPageInfo = webPageInfo.Substring(0, index);
             }
 
+            index = webPageInfo.IndexOf("\"");
+            if (index != -1) {
+                webPageInfo = webPageInfo.Substring(0, index);
+            }
+
             webPageInfo = webPageInfo.Replace(",", ", ");
             return webPageInfo;
         }
