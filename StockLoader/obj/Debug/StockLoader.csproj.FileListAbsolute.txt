@@ -8,3 +8,17 @@ C:\Users\kylei\Documents\Projects\Visual Studio\StockLoader\StockLoader\obj\Debu
 C:\Users\kylei\Documents\Projects\Visual Studio\StockLoader\StockLoader\obj\Debug\StockLoader.exe
 C:\Users\kylei\Documents\Projects\Visual Studio\StockLoader\StockLoader\obj\Debug\StockLoader.pdb
 C:\Users\kylei\Documents\Projects\Visual Studio\StockLoader\StockLoader\obj\Debug\StockLoader.formList.resources
+C:\Users\Chewy\Documents\Visual Studio 2015\Projects\StockLoader\StockLoader\obj\Debug\StockLoader.csprojResolveAssemblyReference.cache
+C:\Users\Chewy\Documents\Visual Studio 2015\Projects\StockLoader\StockLoader\obj\Debug\StockLoader.Form1.resources
+C:\Users\Chewy\Documents\Visual Studio 2015\Projects\StockLoader\StockLoader\obj\Debug\StockLoader.formList.resources
+C:\Users\Chewy\Documents\Visual Studio 2015\Projects\StockLoader\StockLoader\obj\Debug\StockLoader.Properties.Resources.resources
+C:\Users\Chewy\Documents\Visual Studio 2015\Projects\StockLoader\StockLoader\obj\Debug\StockLoader.csproj.GenerateResource.Cache
+C:\Users\Chewy\Documents\Visual Studio 2015\Projects\StockLoader\StockLoader\obj\Debug\StockLoader.exe
+C:\Users\Chewy\Documents\Visual Studio 2015\Projects\StockLoader\StockLoader\obj\Debug\StockLoader.pdb
+C:\Users\Chewy\Documents\Visual Studio 2015\Projects\StockLoader\StockLoader\bin\Debug\StockLoader.exe.config
+C:\Users\Chewy\Documents\Visual Studio 2015\Projects\StockLoader\StockLoader\bin\Debug\StockLoader.exe.manifest
+C:\Users\Chewy\Documents\Visual Studio 2015\Projects\StockLoader\StockLoader\bin\Debug\StockLoader.application
+C:\Users\Chewy\Documents\Visual Studio 2015\Projects\StockLoader\StockLoader\bin\Debug\StockLoader.exe
+C:\Users\Chewy\Documents\Visual Studio 2015\Projects\StockLoader\StockLoader\bin\Debug\StockLoader.pdb
+C:\Users\Chewy\Documents\Visual Studio 2015\Projects\StockLoader\StockLoader\obj\Debug\StockLoader.exe.manifest
+C:\Users\Chewy\Documents\Visual Studio 2015\Projects\StockLoader\StockLoader\obj\Debug\StockLoader.application
