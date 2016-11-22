@@ -46,7 +46,6 @@
             this.textTicker = new System.Windows.Forms.TextBox();
             this.labelTickers = new System.Windows.Forms.Label();
             this.folderBrowserDialog = new System.Windows.Forms.FolderBrowserDialog();
-            this.backgroundWorker1 = new System.ComponentModel.BackgroundWorker();
             this.menuStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDownFromDay)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDownFromYear)).BeginInit();
@@ -78,21 +77,21 @@
             // dow30ToolStripMenuItem
             // 
             this.dow30ToolStripMenuItem.Name = "dow30ToolStripMenuItem";
-            this.dow30ToolStripMenuItem.Size = new System.Drawing.Size(135, 22);
+            this.dow30ToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
             this.dow30ToolStripMenuItem.Text = "Dow 30";
             this.dow30ToolStripMenuItem.Click += new System.EventHandler(this.dow30ToolStripMenuItem_Click);
             // 
             // spToolStripMenuItem
             // 
             this.spToolStripMenuItem.Name = "spToolStripMenuItem";
-            this.spToolStripMenuItem.Size = new System.Drawing.Size(135, 22);
+            this.spToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
             this.spToolStripMenuItem.Text = "S&&P 100";
             this.spToolStripMenuItem.Click += new System.EventHandler(this.spToolStripMenuItem_Click);
             // 
             // nazdaq100ToolStripMenuItem
             // 
             this.nazdaq100ToolStripMenuItem.Name = "nazdaq100ToolStripMenuItem";
-            this.nazdaq100ToolStripMenuItem.Size = new System.Drawing.Size(135, 22);
+            this.nazdaq100ToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
             this.nazdaq100ToolStripMenuItem.Text = "Nazdaq 100";
             this.nazdaq100ToolStripMenuItem.Click += new System.EventHandler(this.nazdaq100ToolStripMenuItem_Click);
             // 
@@ -339,11 +338,6 @@
             this.labelTickers.TabIndex = 17;
             this.labelTickers.Text = "Ticker Symbols:";
             // 
-            // backgroundWorker1
-            // 
-            this.backgroundWorker1.DoWork += new System.ComponentModel.DoWorkEventHandler(this.backgroundWorker1_DoWork);
-            this.backgroundWorker1.RunWorkerCompleted += new System.ComponentModel.RunWorkerCompletedEventHandler(this.backgroundWorker1_RunWorkerCompleted);
-            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -406,7 +400,6 @@
         private System.Windows.Forms.TextBox textTicker;
         private System.Windows.Forms.Label labelTickers;
         private System.Windows.Forms.FolderBrowserDialog folderBrowserDialog;
-        private System.ComponentModel.BackgroundWorker backgroundWorker1;
     }
 }
 

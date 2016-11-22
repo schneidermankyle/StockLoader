@@ -14,20 +14,16 @@ using Microsoft.Win32;
 namespace StockLoader {
     public partial class formList : Form {
         string folderPath;
-
-        // Class constructor
         public formList(string folder) {
             InitializeComponent();
             this.folderPath = folder;
         }
 
-        // Let's return a list of all the .csv files in our directory
         private void formList_Load(object sender, EventArgs e) {
             string[] csvFiles = Directory.GetFiles(this.folderPath, "*.csv");
             this.formListBox.Items.AddRange(csvFiles);
         }
 
-        // When a file is double clicked, let's open with the default application
         private void formListBox_DoubleClick(object sender, EventArgs e) {
             if (formListBox.SelectedItem != null) {
                 RegistryKey key = Registry.ClassesRoot.OpenSubKey(".csv", false);
@@ -44,7 +40,6 @@ namespace StockLoader {
             }
         }
 
-        // When the text is changed in our search box, let's update the search results
         private void textSearchBox_TextChanged(object sender, EventArgs e) {
             formListBox.Items.Clear();
             List<string> allPaths = Directory.GetFiles(folderPath, "*.csv").ToList();

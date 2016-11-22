@@ -4,8 +4,6 @@ using System.Net;
 
 namespace StockLoader {
     public static class GetIndices {
-
-        // Parse our response from the web server.
         private static string getList(HttpWebResponse response) {
             StreamReader reader = new StreamReader(response.GetResponseStream());
             string webPageInfo = reader.ReadToEnd();
@@ -34,7 +32,6 @@ namespace StockLoader {
             return webPageInfo;
         }
 
-        // Make our web request for the list of indicies then parse the response.
         public static string GetStockList(string index) {
             HttpWebRequest request = (HttpWebRequest)WebRequest.Create("http://old.barchart.com/stocks/"+ index +".php");
             HttpWebResponse response = (HttpWebResponse)request.GetResponse();
