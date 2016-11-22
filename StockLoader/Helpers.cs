@@ -8,12 +8,15 @@ using System.Net;
 
 namespace StockLoader {
     public static class Helpers {
+        
+        // Splits our list of symbols
         public static string[] SplitTickers(string tickers) {
             tickers = tickers.Replace(" ", String.Empty);
             tickers = tickers.ToUpper();
             return tickers.Split(',');
         }
 
+        // Downloads symbol data and stores as a CSV fil at our download location
         public static void DownloadSymbolsToCSV(string url, string path, string folder, string symbol) {
             using (WebClient Client = new WebClient()) {
                 Client.DownloadFile(url, path);
